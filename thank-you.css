@@ -1,0 +1,54 @@
+ 
+html, body {
+  font-family: Archivo, sans-serif;
+  cursor: url("data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACMAAAAgCAYAAACYTcH3AAAFjUlEQVRYR51YbWwUVRQ9M7vd0llFt1hDm2pMtJWqaIoaF1JMi1KhVBbajUmTlo8SxBCpRqJsUeIPLayxwQR+GFqwmDYCpSVMSxuigdJK7VYUmxCRr1iVasGqrbI7pfsxY97MzuzMdmZ2y/u1M2/ue+eee+697y2FOxscgDQT00kAzEyXpmZgIKi/tWfaEBgNwtVyVbME//tFdNa6AT6kfp/UPsl8pICo9RVBjcjr7AFAwdVyxdCnjup8CEG/+B0gmO5nOMkwTCbHcX+QXTy+wuhi2j2//uxX9Df8PI2deGRkk+Nr5gP8bTKVBWBUD70RGJGANXsLkPVsiqHX9H927Cw+kRCMvABbmWMaOj0wIpBa3wsQwJtKyruwByRu8bpRG8UBgMdXBCm84tDsr3mw2+2hQCBgJQaJBjHc5exB2YHvEUmdbfg5AaO3XhRQGIBCfTwzwvbTJeAZkpnmQ/bOjJUfGnfgeu9hbFM5p2JFkrSKHTUYgcx6BmKseBdJYXirsxi2++RUpeB1nhaRmgEh8xe/+BhXuxuwtbMYKRkh7F7Wh+BEBK8cHEJr9XMAP6UJlwhm48aN6xobG5tkOi0hBnWLu6ZRY3MAbx91oe5FFq6Wa5JfCQa7Ph8IKakNd9N5hFLuVqyimloP4KDMjAAr4DkrsSJRaYGr5ZJiZP1nGO01xdhxdgU+KOhKGoy8wJ8DLO5f6FLpliQHDRs/iaMk7QFKASOGJ/okx3VVy1WN7+rMSBQiPcIsQT+OVecbcUlRJSUlge7ubiZe8ckINFGI1PMpU7fQtmEBaIbCO6cLRcetQQYfFnYBEfFLLipogITprrk2lL2xCFmLKZEkkrqJyn2ygERWbYCnb3rZGO7148i2c9HsomhA0BY4R04aNjU7Rf1YHdlYWc9K+woCIrPuSRaDRqiewSIDzdPwOk9JYHJWbcFj7hqVWH9Be81SYDbwbscK1BEq48ZMNJMauoXW9Qt0i5+8LHFaBJO7ugZ55Vs027FV8wAhYlY9xe+ff3MPHM8sN2WqszoffNCfHBiaScfLDYMxZsKTaF/3pKgXz2ChLrUW3opPys6AuxFCfNbFI2Or8gAhbAiGAo1dcpiIsZp2OYU9viUJC5ucdeX7zyE8615dhlICN9G2qcAQTO+n1zHw+TVQbW1tAbfbzcSDSaZZKvEmbSOqfyMtyQ5u710GPnUKwdFU7F59ErZMK4KjpF9KqS3myKqWKxCbEwCjTmsmjFgpMO5ZbNWjcVlLQ/FCXYFJMXY1S8fHOwFD7GZeKCmwlY/IPkrtYGRkZF12dnaTRDENtvJhbNq/BI4nEjdCYp8MK2pWWdISgn5Rp3qNUgyVLOSzuzbg7x/7TFMxtjiF4E0bdrtOJjxSEJtLh+tx+cQ+uJuGcPL9Kvh/uyD7oz32EUDZBeV4+jWvjBi13yyFQIsC0x3yDcFiz0Dpvn4TWUmdx8oHIUzcAJ/+AI5X5ipAND/Iw6FDh0IVFRXW8sZvEU6bE42nFKr4awp5N9z/L45sPZ8UI3I2ydkWfTY9dsLhcAjj4+More+CZS5BLolMr+aYCZZkJgUB7Nr5QOS2GIKV0QsfAUJRFARBe4/Svao4nU7B5/MBVjvKm75De1XeNP3Q4RTsLPhSlxXLxAiOvR7rzmV7TiGS/iAmhr5Cb/1mJXviY2p4iRsbG8vMyMgQL3Fk6J53KAtczZfQUZVLvFStLemjrPknRCirUi7I2zSGyeI4bkaXODVoZZdXDxQh/XFA+MuOj0q74Gq+LJYqdu1TSE2fi5feawDmPCSGh4zUkB+t5AysTr0EEjeZjk3RNC3wvPbMk7d6M+YtXwMhzQEqdBvjF/pwZm8tECYHcM1I5k4/LbWTAsYwDMdxnOFfIjRNT/I8P+O/RP4HPksiI5ykXhwAAAAASUVORK5CYII="), auto; 
+   background-image: url("images/Arkaplan.png");
+   background-size: cover;
+   background-repeat: no-repeat;
+   background-position: center center;
+   background-attachment:fixed ; }
+  
+  
+ /* :root {
+--shadow-color: #FF9E9E;
+--shadow-color-light: white;
+}
+
+* {
+padding: 0;
+margin: 0;
+box-sizing: border-box;
+}
+
+h1 {
+margin: calc(40vh - 40px) auto 0 auto;
+font-size: 65px;
+font-family: "Archivo Black", "Archivo", sans-serif;
+font-weight: normal;
+display: block;
+height: auto;
+text-align: center;
+}
+
+.logo-1 {
+color: white;
+animation: neon 3s infinite;
+}
+
+@keyframes neon {
+0% {
+  text-shadow: -1px -1px 1px var(--shadow-color-light), -1px 1px 1px var(--shadow-color-light), 1px -1px 1px var(--shadow-color-light), 1px 1px 1px var(--shadow-color-light),
+  0 0 3px var(--shadow-color-light), 0 0 10px var(--shadow-color-light), 0 0 20px var(--shadow-color-light),
+  0 0 30px var(--shadow-color), 0 0 40px var(--shadow-color), 0 0 50px var(--shadow-color), 0 0 70px var(--shadow-color), 0 0 100px var(--shadow-color), 0 0 200px var(--shadow-color);
+}
+50% {
+  text-shadow: -1px -1px 1px var(--shadow-color-light), -1px 1px 1px var(--shadow-color-light), 1px -1px 1px var(--shadow-color-light), 1px 1px 1px var(--shadow-color-light),
+  0 0 5px var(--shadow-color-light), 0 0 15px var(--shadow-color-light), 0 0 25px var(--shadow-color-light),
+  0 0 40px var(--shadow-color), 0 0 50px var(--shadow-color), 0 0 60px var(--shadow-color), 0 0 80px var(--shadow-color), 0 0 110px var(--shadow-color), 0 0 210px var(--shadow-color);
+}
+100% {
+  text-shadow: -1px -1px 1px var(--shadow-color-light), -1px 1px 1px var(--shadow-color-light), 1px -1px 1px var(--shadow-color-light), 1px 1px 1px var(--shadow-color-light),
+  0 0 3px var(--shadow-color-light), 0 0 10px var(--shadow-color-light), 0 0 20px var(--shadow-color-light),
+  0 0 30px var(--shadow-color), 0 0 40px var(--shadow-color), 0 0 50px var(--shadow-color), 0 0 70px var(--shadow-color), 0 0 100px var(--shadow-color), 0 0 200px var(--shadow-color);
+}
+}*/
